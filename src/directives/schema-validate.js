@@ -42,6 +42,12 @@ angular.module('schemaForm').directive('schemaValidate', ['sfValidator', '$parse
           }
 
           var result =  sfValidator.validate(form, viewValue);
+
+          //Validate step
+          if (parseInt(form.step) && viewValue % parseInt(form.step) > 0) {
+            return undefined;
+          }
+
           //console.log('result is', result)
           // Since we might have different tv4 errors we must clear all
           // errors that start with tv4-
