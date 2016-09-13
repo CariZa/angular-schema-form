@@ -53,6 +53,6 @@
     "tx-tinymce": ">= 0.0.5",
     "angular-ui-sortable": ">=0.12.11",
     "bootstrap-vertical-tabs": "~1.2.0",
-    "angular-schema-form-bootstrap": "https://github.com/CariZa/angular-schema-form-bootstrap.git#^0.2.1"
+    "angular-schema-form-bootstrap": "https://github.com/CariZa/angular-schema-form-bootstrap.git#^0.2.2"
   }
 }
